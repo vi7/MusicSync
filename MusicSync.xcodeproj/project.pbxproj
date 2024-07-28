@@ -21,6 +21,7 @@
 		AEC98EF22B48717F006671A7 /* MicrophoneSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC98EF12B48717F006671A7 /* MicrophoneSettings.swift */; };
 		AEFBD4F92A09586D00CC63A9 /* DeprecatedMicrophone.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFBD4F82A09586D00CC63A9 /* DeprecatedMicrophone.swift */; };
 		AEFCC3DA2B4307D1007A5507 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFCC3D92B4307D1007A5507 /* Home.swift */; };
+		D48A5B022C30775D00DEFBB0 /* ClearableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48A5B002C30775D00DEFBB0 /* ClearableTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		AEC98EF12B48717F006671A7 /* MicrophoneSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneSettings.swift; sourceTree = "<group>"; };
 		AEFBD4F82A09586D00CC63A9 /* DeprecatedMicrophone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeprecatedMicrophone.swift; sourceTree = "<group>"; };
 		AEFCC3D92B4307D1007A5507 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D48A5B002C30775D00DEFBB0 /* ClearableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearableTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		AE3FF80F2A08CD7900EEBB9A /* MusicSync */ = {
 			isa = PBXGroup;
 			children = (
+				D48A5B012C30775D00DEFBB0 /* Components */,
 				AEFCC3D82B4307BA007A5507 /* Views */,
 				AEAEAB282A0D50C100DD36B6 /* Info.plist */,
 				AE8222CA2B4859180054BB36 /* AudioProcessor.swift */,
@@ -105,6 +108,14 @@
 				AE4A85312B4B1E520049CBD1 /* SyncSettings.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		D48A5B012C30775D00DEFBB0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D48A5B002C30775D00DEFBB0 /* ClearableTextField.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +200,7 @@
 				AEFBD4F92A09586D00CC63A9 /* DeprecatedMicrophone.swift in Sources */,
 				AE8222C52B474D8F0054BB36 /* Microphone.swift in Sources */,
 				AEADFF6F2B45DB9F0037F158 /* WebSocketManager.swift in Sources */,
+				D48A5B022C30775D00DEFBB0 /* ClearableTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
